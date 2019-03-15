@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bai3</string>
+    <string name="bird">Bird</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="rabbit">Rabbit</string>
+    <string name="pig">Pig</string>
+</resources>
