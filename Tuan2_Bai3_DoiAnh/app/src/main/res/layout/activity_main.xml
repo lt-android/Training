@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+            <RadioGroup
+                android:id="@+id/rbtn_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/rbtn_Bird"
+                    android:checked="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="Bird" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_Cat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="Cat" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_Dog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="Dog" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_Rabbit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="Rabbit" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_Pig"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="Pig" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="214dp"
+            android:layout_gravity="top"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:id="@+id/img_View"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/bird" />
+        </LinearLayout>
+
+    </LinearLayout>
+
