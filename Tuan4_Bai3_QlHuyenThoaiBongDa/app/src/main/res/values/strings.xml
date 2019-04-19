@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">custom_listview</string>
+    <string name="ronaldo">Ronaldo</string>
+    <string name="des_ronaldo">September 22 1976 (age 42)</string>
+    <string name="zidane">Zinédine Zidane</string>
+    <string name="des_zidane">June 23 1972 (age 46)</string>
+
+</resources>
