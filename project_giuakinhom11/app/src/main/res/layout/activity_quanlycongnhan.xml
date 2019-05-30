@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#D1ECD3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+
+           android:gravity="center"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+    <TextView
+        android:text="Mã CN :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:enabled="false"
+        android:layout_marginTop="15dp"
+        android:id="@+id/macn_edit"
+        android:background="@drawable/custom_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Họ :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/ho_edit"
+        android:background="@drawable/custom_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Tên :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+
+        android:layout_marginTop="15dp"
+        android:id="@+id/ten_edit"
+        android:background="@drawable/custom_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Phái:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+
+        android:layout_marginTop="15dp"
+        android:id="@+id/phai_edit"
+        android:background="@drawable/custom_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Ngày Sinh :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+
+        android:layout_marginTop="15dp"
+        android:id="@+id/ngaysinh_edit"
+        android:background="@drawable/custom_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Ngày Nhận Việc :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+
+        android:layout_marginTop="15dp"
+        android:id="@+id/ngaynhanviec_edit"
+        android:background="@drawable/custom_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Lương Cơ Bản :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+
+        android:layout_marginTop="15dp"
+        android:id="@+id/luong_edit"
+        android:background="@drawable/custom_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Mã Phân Xưởng :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/maphanxuong_edit"
+        android:background="@drawable/custom_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+           <LinearLayout
+
+               android:gravity="center"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <Button
+
+
+                   android:id="@+id/capnhat_edit"
+                   android:background="@drawable/star_bc"
+                   android:textColor="#29F30A"
+                   android:text="Cập Nhật"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <Button
+
+                   android:id="@+id/chamcong_edit"
+                   android:background="@drawable/star_bc"
+                   android:textColor="#29F30A"
+                   android:text="Chấm Công"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <Button
+                   android:layout_marginLeft="5dp"
+                   android:id="@+id/xemphanxuong_edit"
+                   android:background="@drawable/star_bc"
+                   android:textColor="#29F30A"
+                   android:text="Phân Xưởng"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <Button
+
+                   android:id="@+id/thoat_edit"
+                   android:background="@drawable/star_bc"
+                   android:textColor="#29F30A"
+                   android:text="Thoát"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

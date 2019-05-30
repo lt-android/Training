@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#d5e2f5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Mã Công Nhân :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+
+        android:layout_marginTop="15dp"
+        android:id="@+id/macongnhan_chamcong"
+        android:background="@drawable/custom_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Ngày Chấm Công :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+
+        android:layout_marginTop="15dp"
+        android:id="@+id/ngay_chamcong"
+        android:background="@drawable/custom_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Số Lượng :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+
+        android:layout_marginTop="15dp"
+        android:id="@+id/soluong_chamcong"
+        android:background="@drawable/custom_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/cham_chamcong"
+            android:background="#82a3af"
+            android:textColor="#ffffff"
+            android:text="Chấm Công"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>
